@@ -1,0 +1,72 @@
+.feed {
+    position: absolute;
+    top: 120px;
+    right: 45%;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.feed__inputContainer {
+    background-color: white;
+    -moz-box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    height: 100px;
+}
+
+.feed__input {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+
+.feed__input > form {
+    display: flex;
+    width: 100%;
+}
+
+.feed__input > form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline: 0;
+    font-weight: 600;
+}
+
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    margin-top: -70px;
+    margin-bottom: -15px;
+}
+
+hr {
+    border: 0.1px solid #d3d3d3;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
+}
+
+.feed__input > form > button{
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .feed {
+        width: 450px;
+        left: 50%;
+        margin-left: -225px;
+        top: 55%;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1500px) {
+    .feed {
+        right: 51%;
+        top: 133%;
+    }
+}

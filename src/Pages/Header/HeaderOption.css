@@ -1,0 +1,67 @@
+.headerOption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    color: #666666;
+    cursor: pointer;
+  }
+  
+  .headerOption__title {
+    margin-top: 1px;
+    font-size: 12px;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .headerOption__icon {
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+  }
+  
+  .headerOption:hover {
+    color: #191919;
+  }
+
+  .header__right {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 500px;
+  }
+  
+  .header__right .MuiAvatar-colorDefault {
+    background-color: #70b5f9;
+  }
+  
+  @media screen and (max-width: 750px) {
+
+    .headerOption {
+      margin-right: 25px;
+    }
+
+    .header__search {
+      display: none;
+    }
+    .header__search > input {
+      display: none;
+    }
+  
+    .header__left > img {
+      object-fit: contain;
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .header__right {
+      margin-left: 30px;
+    }
+
+    .headerOption_title {
+      font-size: 10px;
+    }
+    .headerOption__icon {
+      height: 20px !important;
+      width: 20px !important;
+    }
+  }
