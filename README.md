@@ -8,7 +8,6 @@ Developed a clone of the "LinkedIn" web app. Used React.JS for the front-end. Cu
 - CSS
 - React
 - Styled-components
-- Netlify
 
 
 ## Steps to Build locally:
